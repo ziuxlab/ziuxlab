@@ -1,4 +1,4 @@
-<img src="public/assets/img/isologotypo.png" align="right" />
+<img src="public/assets/img/isologotipo-negro.png" align="center" />
 
 ## WebSite
 
