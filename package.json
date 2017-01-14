@@ -9,6 +9,7 @@
     "critical": "^0.8.1",
     "gulp": "^3.9.1",
     "gulp-connect-php": "0.0.8",
+    "gulp-xo": "^0.14.0",
     "jquery": "^3.1.0",
     "laravel-elixir": "^6.0.0-9",
     "laravel-elixir-browsersync-official": "^1.0.0",
