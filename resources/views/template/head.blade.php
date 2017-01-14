@@ -18,6 +18,6 @@
 
 <!-- precarga de url que se van a utilizar despues -->
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="dns-prefetch" href="//static.contapp.com.co">
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="stylesheet" href="{{ url('assets/css/all.min.css') }}">
 
