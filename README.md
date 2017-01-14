@@ -1,4 +1,4 @@
-<img src="public/assets/img/logo-negro.png" width="600" alt="logotipo ziuxlab" align="center" />
+<p align="center"><img src="public/assets/img/logo-negro.png" width="600" alt="logotipo ziuxlab" /></p>
 
 ## WebSite
 
