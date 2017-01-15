@@ -10,7 +10,7 @@
             <section class="overflow-hidden content-boxed">
                 <!-- Section Content -->
                 <div class="portada row flex-items-xs-middle content-boxed">
-                    <div class="col-lg-6 col-sm ">
+                    <div class="col-lg-6">
                         <div class="text-xs-center text-md-left">
                             <h1 class="h1 rw-words rw-words-1 typer font-w600 text-white text-uppercase">Laboratorio de
                                 <br>
@@ -29,8 +29,26 @@
                                 soluciones web centradas en sus usuarios.</p>
 
                         </div>
+                        <div class="row push-15-t">
+                            <div class="col-sm-3 text-xs-center p-2">
+                                <img src="{{url('assets/img/test-tube.svg')}}" class="img-fluid " alt="diseño">
+                                <h3 class="h4 text-white-op">Diseño Web UI/UX</h3>
+                            </div>
+                            <div class="col-sm-3 text-xs-center p-2">
+                                <img src="{{url('assets/img/molecule.svg')}}" class="img-fluid " alt="diseño">
+                                <h3 class="h4 text-white-op">Desarrollo Web</h3>
+                            </div>
+                            <div class="col-sm-3 text-xs-center p-2">
+                                <img src="{{url('assets/img/flask.svg')}}" class="img-fluid " alt="diseño">
+                                <h3 class="h4 text-white-op">pruebas Usabilidad</h3>
+                            </div>
+                            <div class="col-sm-3 text-xs-center p-2">
+                                <img src="{{url('assets/img/benzene.svg')}}" class="img-fluid" alt="diseño">
+                                <h3 class="h4 text-white-op">Optimización Web</h3>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md push-30-t ">
+                    <div class="col-lg-6 push-30-t ">
                         <img class="img-responsive animated bounceInRight"
                              src="{{ asset('assets/img/usabilidad-web.png') }}"
                              alt="">

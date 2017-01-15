@@ -11424,8 +11424,11 @@ div.tagsinput span.tag a:hover {
 }
 
 .div-full{
-    min-height: 100vh;
+    height: 100vh;
     z-index: 0;
+    max-height: 800px;
+    display: flex;
+    align-items: center;
 }
 
 .block-title {
@@ -11509,8 +11512,7 @@ footer a .item {
 
 
 .portada{
-  margin: 100px 20px 30px;
-    position: fixed;
+  
 }
 .portada .h1{
     line-height: 0.9em;
@@ -11519,7 +11521,6 @@ footer a .item {
 #section-2{
     z-index: 2;
     position: relative;
-    min-height: 100vh;
 }
 
 #section-2 .img-responsive{
@@ -11756,7 +11757,10 @@ border-radius: 3px;
 }
 @media (max-width: 992px) {
     /********* medium **********/
-
+.div-full{
+    min-height: 100vh;
+    height: auto;
+}
 }
 
 @media (max-width: 768px) {
