@@ -11,11 +11,11 @@
                     <h3 class="block-title">Nueva solicitud de proyecto</h3>
                 </div>
                 <div class="block-content">
-                    {!! Form::open() !!}
+                    {!! Form::open(['action'=>'MailController@store']) !!}
                     <div class="form-group row">
                         <div class="col-sm-6">
                             {!! Form::label('nombre', 'Nombre:') !!}
-                            {{ Form::text('nombre', null, ['class' => 'form-control ','placeholder'=>'Ingrese su nombre...']) }}
+                            {{ Form::text('nombre', null, ['class' => 'form-control ','placeholder'=>'Ingrese su nombre...','required']) }}
                         </div>
                         <div class="col-sm-6">
                             {!! Form::label('telefono', 'Teléfono:') !!}
@@ -26,7 +26,7 @@
                         <div class="col-sm-12">
                             {!! Form::label('email', 'Email:') !!}
                             <div class="input-group">
-                                {{ Form::email('email', null, ['class' => 'form-control ','placeholder'=>'Ingrese su email...']) }}
+                                {{ Form::email('email', null, ['class' => 'form-control ','placeholder'=>'Ingrese su email...','required']) }}
                                 <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
                             </div>
                         </div>
@@ -34,7 +34,7 @@
                     <div class="form-group row">
                         <div class="col-sm-6">
                             {!! Form::label('proyecto', 'Tipo de proyecto:') !!}
-                            {{ Form::select('', [
+                            {{ Form::select('tipo_proyecto', [
                             'diseño' => 'Diseño de interfaces UI/UX',
                             'aplicaciones' => 'Aplicaciones moviles',
                             'desarrollo' => 'Desarrollo Web Apps',
@@ -42,7 +42,7 @@
                             'usabilidad' => 'pruebas de usabilidad',
                             'optimizacion' => 'Optimización Web',
                             ],null,
-                            ['class'=>'form-control','placeholder'=>'Seleccione']) }}
+                            ['class'=>'form-control','placeholder'=>'Seleccione','required']) }}
 
                         </div>
                         <div class="col-sm-6">
@@ -55,7 +55,7 @@
                         <div class="col-xs-12">
                             {!! Form::label('mensaje', 'Mensaje:') !!}
                             {{ Form::textarea('mensaje', null, ['class' => 'form-control','rows'=>'3',
-                            'placeholder'=>'Cuéntanos acerca de tu proyecto o idea...']) }}
+                            'placeholder'=>'Cuéntanos acerca de tu proyecto o idea...','required']) }}
                         </div>
                     </div>
                     <div class="form-group row">

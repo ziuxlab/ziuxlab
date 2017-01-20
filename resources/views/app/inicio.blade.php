@@ -31,19 +31,19 @@
                         </div>
                         <div class="row push-50-t">
                             <div class="col-sm-3 col-xs-4 text-xs-center hidden-xs-down ">
-                                <img src="{{url('assets/img/test-tube.svg')}}" width="60" class="img-fluid " alt="diseño">
+                                <img src="{{url('assets/img/diseño-banner.svg')}}" width="60" class="img-fluid " alt="diseño">
                                 <h3 class="h4 text-white-op push-10-t">Diseño Web UI/UX</h3>
                             </div>
                             <div class="col-sm-3 col-xs-4 text-xs-center ">
-                                <img src="{{url('assets/img/molecule.svg')}}" width="60" class="img-fluid " alt="diseño">
+                                <img src="{{url('assets/img/code.svg')}}" width="60" class="img-fluid " alt="diseño">
                                 <h3 class="h4 text-white-op push-10-t">Desarrollo Web y Apps</h3>
                             </div>
                             <div class="col-sm-3 col-xs-4 text-xs-center ">
-                                <img src="{{url('assets/img/flask.svg')}}" width="60" class="img-fluid " alt="diseño">
+                                <img src="{{url('assets/img/pruebas-banner.svg')}}" width="60" class="img-fluid " alt="diseño">
                                 <h3 class="h4 text-white-op push-10-t">pruebas Usabilidad</h3>
                             </div>
                             <div class="col-sm-3 col-xs-4 text-xs-center ">
-                                <img src="{{url('assets/img/benzene.svg')}}" width="60" class="img-fluid" alt="diseño">
+                                <img src="{{url('assets/img/performance.svg')}}" width="60" class="img-fluid" alt="diseño">
                                 <h3 class="h4 text-white-op push-10-t">Optimización Web</h3>
                             </div>
                         </div>

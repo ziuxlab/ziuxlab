@@ -11,7 +11,9 @@
 |
 */
     
-    Route::get('/', 'InicioController@index');
+    Route::resource('/', 'InicioController');
+    Route::resource('mail', 'MailController');
+    
     
     /* rutas administrativas backend */
     Route::group(['prefix' => 'admin'], function () {

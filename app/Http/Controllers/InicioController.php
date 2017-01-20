@@ -30,4 +30,8 @@ class InicioController extends Controller
         return view('app.inicio');
     }
     
+    public function store(Request $request){
+        
+    }
+    
 }
