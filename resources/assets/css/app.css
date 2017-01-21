@@ -4,6 +4,10 @@
     background-color: #2c343f;
 }
 
+main{
+    margin-top: 60px;
+}
+
 
 .img-container .img-options{
     background-color: rgba(0, 0, 0, 0.8) !important;
@@ -18,7 +22,7 @@
 }
 
 .bg-lineal-gradient-blue {
-    background: linear-gradient(to right bottom,#2c343f 1%,#0275d8 80%,#00a1f1 90%, #00a1f1 30%);
+    background: linear-gradient(to right bottom,#0570cd 1%,#0275d8 80%,#00a1f1 90%, #00a1f1 30%);
 
 }
 
@@ -111,8 +115,9 @@ footer a .item {
 
 
 .portada{
-  
+    
 }
+
 .portada .h1{
     line-height: 0.9em;
 }
@@ -394,7 +399,7 @@ border-radius: 3px;
         line-height: 18px !important;
     }
     .portada{
-        margin: 100px 30px 50px 30px !important;
+        margin: 150px 30px 50px 30px !important;
     }
     .font-s36{
         font-size: 30px !important;

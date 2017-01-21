@@ -2,7 +2,9 @@
     
     namespace App\Http\Controllers;
     
+    use App\Mail\EmpresaInteresada;
     use Illuminate\Http\Request;
+    use Illuminate\Support\Facades\Mail;
     use Illuminate\Support\Facades\Session;
     
     class MailController extends Controller
@@ -40,7 +42,12 @@
             //
             Session::flash('mensaje',
                 'Su mensaje fue enviado correctamente, en breve será contactado por un especializasta de nuestro equipo');
-            return back();
+            
+            $nombre = $request->nombre;
+            
+            Mail::to($request->email)->send(new EmpresaInteresada($request));
+            
+            return view('app.gracias', compact('nombre'));
             
             
         }

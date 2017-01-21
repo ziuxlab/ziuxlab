@@ -34,21 +34,21 @@
                         <div class="row push-50-t">
                             <div class="col-sm-3 col-xs-4 text-xs-center hidden-xs-down ">
                                 <img src="{{url('assets/img/diseño-banner.svg')}}" width="60" class="img-fluid "
-                                     alt="diseño">
+                                     alt="diseño de interfaces">
                                 <h3 class="h4 text-white-op push-10-t">Diseño Web UI/UX</h3>
                             </div>
                             <div class="col-sm-3 col-xs-4 text-xs-center ">
-                                <img src="{{url('assets/img/code.svg')}}" width="60" class="img-fluid " alt="diseño">
+                                <img src="{{url('assets/img/code.svg')}}" width="60" class="img-fluid " alt="desarrollo de web apps">
                                 <h3 class="h4 text-white-op push-10-t">Desarrollo Web y Apps</h3>
                             </div>
                             <div class="col-sm-3 col-xs-4 text-xs-center ">
                                 <img src="{{url('assets/img/pruebas-banner.svg')}}" width="60" class="img-fluid "
-                                     alt="diseño">
+                                     alt="pruebas de usabilidad web">
                                 <h3 class="h4 text-white-op push-10-t">pruebas Usabilidad</h3>
                             </div>
                             <div class="col-sm-3 col-xs-4 text-xs-center ">
                                 <img src="{{url('assets/img/performance.svg')}}" width="60" class="img-fluid"
-                                     alt="diseño">
+                                     alt="optimizacion web y seo">
                                 <h3 class="h4 text-white-op push-10-t">Optimización Web</h3>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                     <div class="col-lg-6 push-30-t ">
                         <img class="img-responsive animated bounceInRight"
                              src="{{ asset('assets/img/usabilidad-web.png') }}"
-                             alt="">
+                             alt="usabilidad con eye tracker en colombia">
                     </div>
                 </div>
                 
@@ -190,7 +190,7 @@
             <div class="row flex-items-xs-center content-boxed">
                 <div class="col-xs-10 row flex-items-xs-center text-xs-center content  animated fadeInUp  block block-rounded block-sombra">
                     <div class="col-lg-3 col-sm-6 push">
-                        <img class="img-responsive " src="{{ asset('assets/img/planeacion.svg') }}" alt="">
+                        <img class="img-responsive " src="{{ asset('assets/img/planeacion.svg') }}" alt="planeacion de diseño web">
                         <div class="push-15-t">
                             <h3 class="h3 text-primary">Planeación</h3>
                             <div class="push-10-t">Cada proyecto comienza con una investigación del mercado, la
@@ -202,7 +202,7 @@
                     
                     </div>
                     <div class=" col-lg-3 col-sm-6 push">
-                        <img class="img-responsive" src="{{ asset('assets/img/diseno.svg') }}" alt="">
+                        <img class="img-responsive" src="{{ asset('assets/img/diseno.svg') }}" alt="diseño de aplicaciones moviles">
                         <div class="push-15-t">
                             <h3 class="h3 text-primary">Diseño</h3>
                             <div class="push-10-t">Se plasmas las ideas en diseños centrados en los usuarios, diseñando
@@ -212,7 +212,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 push">
-                        <img class="img-responsive" src="{{ asset('assets/img/desarrollo.svg') }}" alt="">
+                        <img class="img-responsive" src="{{ asset('assets/img/desarrollo.svg') }}" alt="desarrollo de aplicaciones web">
                         <div class="push-15-t">
                             <h3 class="h3 text-primary">Desarrollo</h3>
                             <div class="push-10-t">Se desarrollan los diseños creados, evaluados y aprobados por
@@ -223,7 +223,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 push">
-                        <img class="img-responsive" src="{{ asset('assets/img/pruebas.svg') }}" alt="">
+                        <img class="img-responsive" src="{{ asset('assets/img/pruebas.svg') }}" alt="pruebas de usabilidad en interfaces">
                         <div class="push-15-t">
                             <h3 class="h3 text-primary">Testeo</h3>
                             <div class="push-10-t">Durante todo el proyecto se realizan las pruebas pertinentes en cada

@@ -3,7 +3,7 @@
         <ul class="nav-header col-xs-6  col-sm-3 col-xl-5">
             <li class="header-content">
                 <a href="{{url('/')}}">
-                    <img class="" src="{{ url('assets/img/logo.png') }}" alt="User expirience first" height="50">
+                    <img class="" src="{{ url('assets/img/logo.png') }}" alt="desarrollo centrado en el usuario" height="50">
                 </a>
             </li>
         </ul>
@@ -29,10 +29,10 @@
                 <a class="h4 text-center text-white font-w600" href="{{ url('/') }}">Casos de exito</a>
             </li>
             <li>
-                <a class="h4 text-center text-white font-w600" href="#">Empresa</a>
+                <a class="h4 text-center text-white font-w600" href="{{ url('/') }}">Empresa</a>
             </li>
             <li>
-                <a class="h4 text-center text-white font-w600" href="#">Usabilidad</a>
+                <a class="h4 text-center text-white font-w600" href="{{ url('/') }}">Usabilidad</a>
             </li>
             <li>
                 <a class="hidden-md-down btn btn-lg btn-danger h4 text-center text-white font-w600" href="#formulario">Contáctenos</a>

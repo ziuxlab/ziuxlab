@@ -5,18 +5,18 @@
 @stop
 
 @section('contenido')
-    <main id="main-container ">
-        <div class=" bg-primary">
+    <main id="main-container" class="bg-primary">
+        <div class="">
             <section class="overflow-hidden content-boxed">
                 <!-- Section Content -->
-                <div class="portada row flex-items-xs-middle flex-items-xs-center content-boxed ">
-                    <div class="col-lg-8 col-sm-10 text-white text-xs-center push-150-t">
-                        <h1>¡Hola Mauricio!</h1>
+                <div class="row flex-items-xs-middle flex-items-xs-center content-boxed ">
+                    <div class="col-lg-8 col-sm-10 text-white text-xs-center push-100-t">
+                        <h1 class="text-capitalize">¡Hola {!! $nombre !!}!</h1>
                         <h2 class="push">Gracias por contactar con nosotros</h2>
-                        <p>En breve uno de nuestros especialistas de productos se comunicará con usted</p>
+                        <p class="h4">En breve uno de nuestros especialistas de productos se comunicará con usted</p>
                         <img class="img-responsive animated bounceInRight push-50 push-30-t"
                              src="{{ asset('assets/img/congrats.svg') }}"
-                             alt="" height="300">
+                             alt="ziuxlab desarrollo web con usabilidad" height="300">
                     </div>
                 </div>
                 
@@ -25,7 +25,7 @@
             </section>
            
         </div>
-        <div class=" bg-primary">
+        <div class=" ">
         <section class="overflow-hidden content-boxed">
             <div class="row flex-items-xs-middle flex-items-xs-center content-boxed ">
                 <div class="col-lg-6 col-md-8 col-sm-10 push-100">
