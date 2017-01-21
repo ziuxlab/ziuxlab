@@ -19,7 +19,7 @@
                         </div>
                         <div class="col-sm-6">
                             {!! Form::label('telefono', 'Teléfono:') !!}
-                            {{ Form::text('teléfono', null, ['class' => 'form-control','placeholder'=>'Ingrese su teléfono...']) }}
+                            {{ Form::text('telefono', null, ['class' => 'form-control','placeholder'=>'Ingrese su teléfono...']) }}
                         </div>
                     </div>
                     <div class="form-group row">
