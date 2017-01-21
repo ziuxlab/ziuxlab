@@ -11406,6 +11406,12 @@ div.tagsinput span.tag a:hover {
 /*# sourceMappingURL=oneui.min.css.map */
 
 /********* basics  *******/
+
+#header-navbar {
+    background-color: #2c343f;
+}
+
+
 .img-container .img-options{
     background-color: rgba(0, 0, 0, 0.8) !important;
 }

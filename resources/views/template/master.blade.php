@@ -5,7 +5,7 @@
         @yield('meta')
     </head>
     <body>
-        <div id="page-container" class="header-navbar-fixed header-navbar-transparent">
+        <div id="page-container" class="header-navbar-fixed">
             <!-- Header -->
             @include('template.header')
             <!-- END Header -->

@@ -15,6 +15,7 @@
         public function index()
         {
             //
+            return view('app.gracias');
         }
         
         /**

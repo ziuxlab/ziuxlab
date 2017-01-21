@@ -12,7 +12,7 @@
 */
     
     Route::resource('/', 'InicioController');
-    Route::resource('mail', 'MailController');
+    Route::resource('gracias', 'MailController');
     
     
     /* rutas administrativas backend */

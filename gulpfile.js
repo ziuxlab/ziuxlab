@@ -3,7 +3,6 @@ const elixir = require('laravel-elixir');
 var critical = require('critical');
 
 
-
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -18,10 +17,11 @@ var critical = require('critical');
  */
 
 elixir(mix => {
-
+    
     mix.less('main.less', 'resources/assets/css/oneui.min.css');
     mix.styles(['bootstrap-flex.min.css', 'oneui.min.css', 'app.css'], 'public/assets/css/app.min.css');
-    mix.scripts(['oneui.min.js', 'typed.min.js','tether.min.js', 'bootstrap.min.js','functions.js'], 'public/assets/js/all.min.js');
+    mix.scripts(['oneui.min.js', 'typed.min.js', 'tether.min.js', 'bootstrap.min.js',
+         'functions.js'], 'public/assets/js/all.min.js');
     //mix.task('critical');
     //mix.task('cache-clear');
     //mix.browserSync();
@@ -49,6 +49,6 @@ gulp.task('critical', function () {
         dest: 'public/assets/css/critical.css',
         minify: true,
         extract: true,
-        ignore: ['@font-face',/url\(/],
+        ignore: ['@font-face', /url\(/],
     });
 });
