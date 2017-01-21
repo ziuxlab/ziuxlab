@@ -45,7 +45,7 @@
             
             $nombre = $request->nombre;
             
-            Mail::to($request->email)->send(new EmpresaInteresada($request));
+            Mail::to('comercial@ziuxlab.com')->send(new EmpresaInteresada($request));
             
             return view('app.gracias', compact('nombre'));
             
