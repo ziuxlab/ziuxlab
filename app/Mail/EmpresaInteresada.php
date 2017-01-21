@@ -31,6 +31,6 @@ class EmpresaInteresada extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.interesado');
+        return $this->view('emails.interesado')->subject('Empresa Interesada: ' . $this->datos->nombre);
     }
 }
