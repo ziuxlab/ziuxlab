@@ -4,7 +4,7 @@ function downloadJSAtOnload() {
 var element = document.createElement("script");
 var link  = document.createElement('link');
 element.src = "assets/js/all.min.js";
-link.href = "assets/css/all.min.css";
+link.href = "assets/css/app.min.css";
 link.rel  = 'stylesheet';
 link.type = 'text/css';
 link.media = 'all';

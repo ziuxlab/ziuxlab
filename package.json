@@ -6,19 +6,15 @@
   },
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
-    "critical": "^0.8.1",
     "gulp": "^3.9.1",
-    "gulp-connect-php": "0.0.8",
-    "gulp-xo": "^0.14.0",
     "jquery": "^3.1.0",
     "laravel-elixir": "^6.0.0-9",
-    "laravel-elixir-browsersync-official": "^1.0.0",
-    "laravel-elixir-vue": "^0.1.4",
+    "laravel-elixir-vue-2": "^0.2.0",
     "laravel-elixir-webpack-official": "^1.0.2",
-    "lodash": "^4.14.0",
-    "penthouse": "^0.10.5-rc",
-    "vue": "^1.0.26",
-    "vue-resource": "^0.9.3"
+    "lodash": "^4.16.2",
+    "penthouse": "^0.10.9",
+    "vue": "^2.0.1",
+    "vue-resource": "^1.0.3"
   },
   "dependencies": {
     "critical": "^0.8.1"

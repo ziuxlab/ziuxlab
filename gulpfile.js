@@ -18,11 +18,10 @@ var critical = require('critical');
 
 elixir(mix => {
     
-    mix.less('main.less', 'resources/assets/css/oneui.min.css');
-    mix.styles(['bootstrap-flex.min.css', 'oneui.min.css', 'app.css'], 'public/assets/css/app.min.css');
-    mix.scripts(['oneui.min.js', 'typed.min.js', 'tether.min.js', 'bootstrap.min.js',
-         'functions.js'], 'public/assets/js/all.min.js');
-    //mix.task('critical');
+    //mix.less('main.less', 'resources/assets/css/oneui.min.css');
+    //mix.styles(['bootstrap-flex.min.css', 'oneui.min.css', 'app.css'], 'public/assets/css/app.min.css');
+    //mix.scripts(['oneui.min.js', 'typed.min.js', 'tether.min.js', 'bootstrap.min.js', 'functions.js'], 'public/assets/js/all.min.js');
+    mix.task('critical');
     //mix.task('cache-clear');
     //mix.browserSync();
     //mix.phpUnit();
@@ -32,7 +31,7 @@ elixir(mix => {
 gulp.task('critical', function () {
     critical.generate({
         base: 'public/',
-        src: 'https://ziuxlab.com',
+        src: 'index.html',
         css: [
             'public/assets/css/app.min.css',
         ],
@@ -49,6 +48,6 @@ gulp.task('critical', function () {
         dest: 'public/assets/css/critical.css',
         minify: true,
         extract: true,
-        ignore: ['@font-face', /url\(/],
+        ignore: ['font-face'],
     });
 });
