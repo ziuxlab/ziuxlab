@@ -18,10 +18,10 @@ var critical = require('critical');
 
 elixir(mix => {
     
-    //mix.less('main.less', 'resources/assets/css/oneui.min.css');
-    //mix.styles(['bootstrap-flex.min.css', 'oneui.min.css', 'app.css'], 'public/assets/css/app.min.css');
-    //mix.scripts(['oneui.min.js', 'typed.min.js', 'tether.min.js', 'bootstrap.min.js', 'functions.js'], 'public/assets/js/all.min.js');
-    mix.task('critical');
+    mix.less('main.less', 'resources/assets/css/oneui.min.css');
+    mix.styles(['bootstrap-flex.min.css', 'oneui.min.css', 'app.css'], 'public/assets/css/app.min.css');
+    mix.scripts(['oneui.min.js', 'typed.min.js', 'tether.min.js', 'bootstrap.min.js', 'functions.js'], 'public/assets/js/all.min.js');
+    //mix.task('critical');
     //mix.task('cache-clear');
     //mix.browserSync();
     //mix.phpUnit();
