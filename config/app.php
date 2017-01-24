@@ -177,7 +177,6 @@ return [
         /*
          * Own Package Service Providers...
          */
-         PrettyRoutes\ServiceProvider::class,
         Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
         //Spatie\ResponseCache\ResponseCacheServiceProvider::class,
         /*

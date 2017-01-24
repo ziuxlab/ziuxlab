@@ -5,7 +5,7 @@
 }
 
 main{
-    margin-top: 60px;
+    margin-top: 75px;
 }
 
 
@@ -385,9 +385,14 @@ border-radius: 3px;
        font-size: .8em;
    }
     .h1{
-        font-size: 30px !important;
+          font-size: 30px !important;
+          letter-spacing: -1px;
+          line-height: 30px !important;
+      }
+    .h2{
+        font-size: 24px !important;
         letter-spacing: -1px;
-        line-height: 30px !important;
+        line-height: 24px !important;
     }
     .h3{
         font-size: 22px !important;
@@ -439,13 +444,18 @@ border-radius: 3px;
         letter-spacing: -1px;
         line-height: 24px !important;
     }
-    .h3{
-        font-size: 22px !important;
+    .h2{
+        font-size: 24px !important;
         letter-spacing: -1px;
-        line-height: 22px !important;
+        line-height: 24px !important;
+    }
+    .h3{
+        font-size: 20px !important;
+        letter-spacing: -1px;
+        line-height: 20px !important;
     }
     .h4{
-        font-size: 20px !important;
+        font-size: 18px !important;
         line-height: 18px !important;
     }
     .portada{

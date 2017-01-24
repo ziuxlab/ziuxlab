@@ -3,6 +3,7 @@
     <head>
         @include('template.head')
         @yield('meta')
+        @yield('styles')
     </head>
     <body>
         <div id="page-container" class="header-navbar-fixed">

@@ -15,7 +15,6 @@
         "infyomlabs/swagger-generator": "dev-master",
         "jlapp/swaggervel": "dev-master",
         "doctrine/dbal": "~2.3",
-        "garygreen/pretty-routes": "^0.0.2",
         "barryvdh/laravel-debugbar": "^2.3",
         "artesaos/seotools": "^0.10.0",
         "guzzlehttp/guzzle": "^6.2"

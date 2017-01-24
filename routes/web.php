@@ -12,6 +12,9 @@
 */
     
     Route::resource('/', 'InicioController');
+    Route::resource('portafolio', 'PortafolioController');
+    //Route::get('servicios', 'InicioController@servicios');
+    
     Route::resource('gracias', 'MailController');
     
     

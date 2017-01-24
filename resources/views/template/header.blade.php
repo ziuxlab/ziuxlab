@@ -26,7 +26,7 @@
                 <a class="h4 text-center text-white font-w600" href="{{ url('/') }}">Servicios</a>
             </li>
             <li>
-                <a class="h4 text-center text-white font-w600" href="{{ url('/') }}">Casos de exito</a>
+                <a class="h4 text-center text-white font-w600" href="{{ url('portafolio') }}">Casos de exito</a>
             </li>
             <li>
                 <a class="h4 text-center text-white font-w600" href="{{ url('/') }}">Empresa</a>
