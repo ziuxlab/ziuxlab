@@ -16,7 +16,7 @@
                                                   personas para personas</h2>
                         <img class="img-responsive" src="{{ url('assets/img/portafolio-laboratorio.svg') }}"
                              alt="laboratorio de casos de exito ziuxlab">
-                        
+                    
                     </div>
                 
                 </div>
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                     </div>
-                    
+                
                 </div>
                 <div class="col-sm-4 remove-padding">
                     <div class="img-container remove-margin  block  block-sombra fx-opt-zoom-out">
@@ -166,8 +166,10 @@
                         <div class="img-options ">
                             <div class="img-options-content">
                                 <h3 class="h3 font-w400 text-white push-5">Desarrollo Webapp</h3>
-                                <h4 class="h4 font-w400 text-white-op push-15">Desarrollo de plataforma de referencia para empresas de túrismo en el éje cafetero
-                                                                               </h4>
+                                <h4 class="h4 font-w400 text-white-op push-15">Desarrollo de plataforma de referencia
+                                                                               para empresas de túrismo en el éje
+                                                                               cafetero
+                                </h4>
                                 <div class="row d-flex justify-content-center align-items-end">
                                     <div class="col-xs-4">
                                         <img src="{{url('assets/img/js.svg')}}" height="50"
@@ -188,7 +190,7 @@
                             </div>
                         </div>
                     </div>
-    
+                
                 </div>
                 <div class="col-sm-4  remove-padding">
                     <div class="img-container remove-margin block block-sombra fx-opt-zoom-out">
@@ -228,43 +230,37 @@
                 </div>
             </div>
         </div>
-        <div class="row flex-items-xs-middle flex-items-xs-center content content-full">
-            <div class="col-sm-10">
-                <div  class="js-slider text-xs-center text-white" data-slider-autoplay="true" data-slider-dots="true" data-slider-arrows="true" >
-        
-                    <div class="h3  flex-xs-center">
-                        <div class="col-sm-10 ">
-                            <blockquote>
-                                <span>“</span>
-                                Mobomo understands the big picture of what we're doing and never
-                                fails to sweat the details. Their work is flat out
-                                brilliant!
-                                <span>” </span>
+        <div class="bg-primary-darker">
+            <h3 class="h1 text-xs-center text-uppercase text-white font-w600 push-50-t">Opiniones de nuestros clientes</h3>
+            <div class="row push-50-t flex-items-xs-center content-boxed">
+                <div class="col-sm-10">
+                    <div class=" js-slider text-xs-center text-white" data-slider-autoplay="true"
+                         data-slider-dots="true">
+                        <div class="block block-content-narrow block-transparent">
+                            <blockquote class="h3">
+                                <span class="text-primary h1">“</span>
+                                Ziuxlab entendió desde el principio lo que queriamos lograr y nos permitió escalar a nivel nacional rapidamente!
+                                <span class="text-primary h1">” </span>
                             </blockquote>
-                            <cite>Aaron Powell – Research Fellow<span>CATO Institute</span></cite>
+                            <br>
+                            <cite class="h5 ">Andrés Ortiz – Gerente Regional<br><span class="text-primary"> Miproteina</span></cite>
                         </div>
-                       
-                    </div>
-                    <div class="h3  flex-xs-center">
-                        <div class="col-sm-10 ">
-                            <blockquote>
-                                <span>“</span>
-                                Mobomo understands the big picture of what we're doing and never
-                                fails to sweat the details. Their work is flat out
-                                brilliant!
-                                <span>” </span>
+                        <div class="block block-content-narrow block-transparent">
+                            <blockquote class="h3">
+                                <span class="text-primary h1">“</span>
+                                Yo lo resumo con un socio más de nuestra empresa, nos hicieron un acompañamiento desde la ideación, hasta la version final de nuestra aplicación!
+                                <span class="text-primary h1">” </span>
                             </blockquote>
-                            <cite>Aaron Powell – Research Fellow<span>CATO Institute</span></cite>
+                            <br>
+                            <cite class="h5">Yonier Ramirez – Cofundador  <br><span class="text-primary"> Contapp</span></cite>
                         </div>
-        
                     </div>
-                   
-    
                 </div>
+            
+            
             </div>
-           
-           
         </div>
+    
     </main>
     @include('app.formulario')
 @stop
