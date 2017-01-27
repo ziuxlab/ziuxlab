@@ -3,6 +3,7 @@
 <meta name="author" content="Ziuxlab">
 <meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="msvalidate.01" content="9C961B969E4B8FD53940DE483BAC1A6F" />
 <!-- SEO tools -->
 {!! SEO::generate(true) !!}
 @include('template.criticalcss')
