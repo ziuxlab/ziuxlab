@@ -18,10 +18,10 @@
                         <div class="text-xs-center text-md-left push">
                             <h1 class="h1 rw-words rw-words-1 typer font-w600 text-white text-uppercase">Laboratorio de
                                 <br>
-                                <span>diseño interfaces UI/UX</span>
-                                <span>Desarrollo aplicaciónes web</span>
-                                <span>Pruebas de usabilidad</span>
-                                <span>Optimización Web</span>
+                                <span>diseño interfaces UI/UX </span>
+                                <span>Desarrollo aplicaciónes web </span>
+                                <span>Pruebas de usabilidad </span>
+                                <span>Optimización Web </span>
                                 <br>
                                                                                                          centrado en los
                                                                                                          usuarios</h1>
