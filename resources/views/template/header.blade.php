@@ -3,7 +3,7 @@
         <ul class="nav-header col-xs-6  col-sm-3 col-xl-5">
             <li class="header-content">
                 <a href="{{url('/')}}">
-                    <img class="" src="{{ url('assets/img/logo.png') }}" alt="desarrollo centrado en el usuario" height="50">
+                    <img class="" src="{{ url('assets/img/logo.svg') }}" alt="desarrollo centrado en el usuario" height="50">
                 </a>
             </li>
         </ul>
