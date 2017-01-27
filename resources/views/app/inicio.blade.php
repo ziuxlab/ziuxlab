@@ -76,7 +76,7 @@
                 <div class="col-sm-6 col-xl text-xs-center animated fadeInUp">
                     <a class="block block-sombra" href="#">
                         <div class="bg-image"
-                             style="background-image: url({{ asset('assets/img/web-design.jpg') }});">
+                             style="background-image: url({{ asset('assets/img/web-design.png') }});">
                             <div class="bg-black-op">
                                 <div class="block-content block-content-full text-center">
                                     <h2 class="h3 text-uppercase font-w600 text-white push-50-t push-50">Diseño <br>Interfaces
