@@ -22,18 +22,12 @@
         public function index()
         {
             //
-            SEO::setTitle('casos de exito y portafolio de nuestro laboratorio');
-            SEO::setDescription('casos de exito de empresas que utilizaron nuestros servicios de desarrollo web, ecommerce, optimizacion web, page speed, diseño de interfaces centradas en el usuario y pruebas de usabilidad');
+            SEO::setTitle('Casos de exito y portafolio de nuestro laboratorio');
+            SEO::setDescription('Empresas que utilizaron nuestros servicios de desarrollo web, ecommerce, optimización web, diseño de interfaces centradas en el usuario y pruebas de usabilidad');
             SEO::addImages(['url' => 'http://image.url.com/cover.jpg']);
-            SEO::opengraph()
-               ->addProperty('type', 'articles')
-            ;
-            SEO::opengraph()
-               ->setUrl('http://ziuxlab.com/portafolio')
-            ;
-            SEO::twitter()
-               ->setSite('@ziuxlab')
-            ;
+            SEO::opengraph()->addProperty('type', 'articles');
+            SEO::opengraph()->setUrl('http://ziuxlab.com/portafolio');
+            SEO::twitter()->setSite('@ziuxlab');
             SEOMeta::addKeyword(['Usabilidad', 'Optimizacion web', 'SEO', 'casos de exito', 'portafolio ziuxlab']);
             
             return view('app.portafolio');
