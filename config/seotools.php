@@ -7,10 +7,10 @@ return [
          */
         'defaults'       => [
             'title'        => "Ziuxlab", // set false to total remove
-            'description'  => 'For those who helped create the Genki Dama', // set false to total remove
+            'description'  => 'Ziuxlab es la empresa  de desarrollo de software y web apps, diseño de interfaces y optimizacion web, centrados en el usuario y en la usabilidad de sus interfaces', // set false to total remove
             'separator'    => ' - ',
-            'keywords'     => [],
-            'canonical'    => false, // Set null for using Url::current(), set false to total remove
+            'keywords'     => ['diseño de interfaces','optimizacion web', 'laravel', 'desarrollo de software','pruebas de usabilidad'],
+            'canonical'    => null, // Set null for using Url::current(), set false to total remove
         ],
 
         /*

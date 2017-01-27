@@ -24,7 +24,6 @@
             //
             SEO::setTitle('casos de exito y portafolio de nuestro laboratorio');
             SEO::setDescription('casos de exito de empresas que utilizaron nuestros servicios de desarrollo web, ecommerce, optimizacion web, page speed, diseño de interfaces centradas en el usuario y pruebas de usabilidad');
-            SEO::setCanonical('https://ziuxlab.com/portafolio');
             SEO::addImages(['url' => 'http://image.url.com/cover.jpg']);
             SEO::opengraph()
                ->addProperty('type', 'articles')

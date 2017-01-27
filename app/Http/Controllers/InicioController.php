@@ -18,14 +18,13 @@ class InicioController extends Controller
    }
     public function index(){
     
-        SEO::setTitle('Usabilidad y optimizacion de paginas web');
-        SEO::setDescription('This is my page description');
-        SEO::setCanonical('https://ziuxlab.com');
+        SEO::setTitle('Empresa de diseño y desarrollo de web apps en colombia');
+        SEO::setDescription('Ziuxlab es la empresa  de desarrollo de software y web apps, diseño de interfaces y optimizacion web, centrados en el usuario y en la usabilidad de sus interfaces');
         SEO::addImages(['url' => 'http://image.url.com/cover.jpg']);
         SEO::opengraph()->addProperty('type', 'articles');
         SEO::opengraph()->setUrl('http://ziuxlab.com');
         SEO::twitter()->setSite('@ziuxlab');
-        SEOMeta::addKeyword(['Usabilidad', 'Optimizacion web', 'SEO']);
+        SEOMeta::addKeyword(['Usabilidad', 'Optimizacion web', 'SEO','desarrollo de web apps']);
        
         return view('app.inicio');
     }
