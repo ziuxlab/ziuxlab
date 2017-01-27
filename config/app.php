@@ -174,6 +174,7 @@ return [
         \InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
         InfyOm\AdminLTETemplates\AdminLTETemplatesServiceProvider::class,
         Jlapp\Swaggervel\SwaggervelServiceProvider::class,
+        Spatie\Sitemap\SitemapServiceProvider::class,
         /*
          * Own Package Service Providers...
          */

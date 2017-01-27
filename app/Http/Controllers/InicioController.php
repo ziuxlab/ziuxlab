@@ -7,6 +7,7 @@ use Artesaos\SEOTools\Facades\SEOMeta;
 use SEO;
 use Illuminate\Http\Request;
 use App\Http\Requests;
+use Spatie\Sitemap\SitemapGenerator;
 
 class InicioController extends Controller
 {
@@ -18,6 +19,8 @@ class InicioController extends Controller
    }
     public function index(){
     
+        //SitemapGenerator::create('https://ziuxlab.com')->writeToFile('sitemap.xml');
+        
         SEO::setTitle('Empresa de diseño y desarrollo de web apps en colombia');
         SEO::setDescription('Ziuxlab es la empresa  de desarrollo de software y web apps, diseño de interfaces y optimizacion web, centrados en el usuario y en la usabilidad de sus interfaces');
         SEO::addImages(['url' => 'http://image.url.com/cover.jpg']);
