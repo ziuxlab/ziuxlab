@@ -19,23 +19,19 @@
                                                   personas para personas</h2>
                         <img class="img-responsive" src="{{ url('assets/img/portafolio-laboratorio.svg') }}"
                              alt="laboratorio de casos de exito ziuxlab">
-                    
                     </div>
-                
                 </div>
-                
                 <!-- END Section Content -->
             </section>
         </div>
         <!-- sección 2 -->
-        
         <div id="section-3" class=" bg-gray-lighter">
             <div class="row flex-items-xs-center  remove-margin ">
                 <div class="col-sm-4 remove-padding">
                     <div class="img-container remove-margin block block-sombra fx-opt-zoom-out">
                         <img class="img-responsive" src="{{ url('assets/img/miproteina.png') }}"
                              alt="desarrollo web e-commerce">
-                        <div class="img-options ">
+                        <a class="img-options" href="http://miproteina.com.co" target="_blank">
                             <div class="img-options-content">
                                 <h3 class="h3 font-w400 text-white push-5">Desarrollo web e-commerce</h3>
                                 <h4 class="h4 font-w400 text-white-op push-15">desarrollo de plataforma e-commerce
@@ -59,16 +55,18 @@
                                         <p class="text-white">Mysql</p>
                                     </div>
                                 </div>
+                                <div class="col-sm-12">
+                                    <p class="btn btn-primary">ver trabajo</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                
                 </div>
                 <div class="col-sm-4 remove-padding">
                     <div class="img-container remove-margin  block  block-sombra fx-opt-zoom-out">
                         <img class="img-responsive" src="{{ url('assets/img/testabolic.png') }}"
                              alt="optimización de paginas web">
-                        <div class="img-options ">
+                        <a class="img-options " href="https://testabolichd.com" target="_blank">
                             <div class="img-options-content">
                                 <h3 class="font-w400 text-white push-5">Optimización web</h3>
                                 <h4 class="h4 font-w400 text-white-op push-15">mejora de velocidad de la página,
@@ -91,15 +89,18 @@
                                         <p class="text-white">Bootstrap</p>
                                     </div>
                                 </div>
+                                <div class="col-sm-12">
+                                    <p class="btn btn-primary">ver trabajo</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-4  remove-padding">
                     <div class="img-container remove-margin block block-sombra fx-opt-zoom-out">
                         <img class="img-responsive" src="{{ url('assets/img/contapp.png') }}"
                              alt="desarrollo de aplicaciones web">
-                        <div class="img-options ">
+                        <a class="img-options " href="http://contapp.com.co" target="_blank">
                             <div class="img-options-content">
                                 <h3 class="font-w400 text-white push-5">Desarrollo Aplicación Web</h3>
                                 <h4 class="h4 font-w400 text-white-op push-15">Aplicación de facturación y <br>
@@ -127,15 +128,18 @@
                                         <p class="text-white">Mysql</p>
                                     </div>
                                 </div>
+                                <div class="col-sm-12">
+                                    <p class="btn btn-primary">ver trabajo</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-4 remove-padding">
                     <div class="img-container remove-margin  block  block-sombra fx-opt-zoom-out">
                         <img class="img-responsive" src="{{ url('assets/img/lipocore-portafolio.png') }}"
                              alt="optimización de paginas web">
-                        <div class="img-options ">
+                        <a class="img-options " href="https://lipocorehd.com" target="_blank" >
                             <div class="img-options-content">
                                 <h3 class="font-w400 text-white push-5">Optimización web y Úsabilidad</h3>
                                 <h4 class="h4 font-w400 text-white-op push-15">mejora de velocidad de la página,
@@ -158,15 +162,18 @@
                                         <p class="text-white">Bootstrap</p>
                                     </div>
                                 </div>
+                                <div class="col-sm-12">
+                                    <p class="btn btn-primary">ver trabajo</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-4 remove-padding">
                     <div class="img-container remove-margin block block-sombra fx-opt-zoom-out">
                         <img class="img-responsive" src="{{ url('assets/img/turismo-responsable.png') }}"
                              alt="desarrollo web e-commerce">
-                        <div class="img-options ">
+                        <a class="img-options " href="http://turismoresponsable.com.co" target="_blank">
                             <div class="img-options-content">
                                 <h3 class="h3 font-w400 text-white push-5">Desarrollo Webapp</h3>
                                 <h4 class="h4 font-w400 text-white-op push-15">Desarrollo de plataforma de referencia
@@ -190,8 +197,11 @@
                                         <p class="text-white">Mysql</p>
                                     </div>
                                 </div>
+                                <div class="col-sm-12">
+                                    <p class="btn btn-primary">ver trabajo</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 
                 </div>
@@ -199,7 +209,7 @@
                     <div class="img-container remove-margin block block-sombra fx-opt-zoom-out">
                         <img class="img-responsive" src="{{ url('assets/img/app-contapp.png') }}"
                              alt="desarrollo de aplicaciones web">
-                        <div class="img-options ">
+                        <a class="img-options " href="https://app.contapp.com.co" target="_blank">
                             <div class="img-options-content">
                                 <h3 class="font-w400 text-white push-5">Desarrollo Aplicación Web</h3>
                                 <h4 class="h4 font-w400 text-white-op push-15">Aplicación de facturación y <br>
@@ -227,8 +237,11 @@
                                         <p class="text-white">Mysql</p>
                                     </div>
                                 </div>
+                                <div class="col-sm-12">
+                                    <p class="btn btn-primary">ver trabajo</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
