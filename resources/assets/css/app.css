@@ -4,6 +4,15 @@
     background-color: #2c343f;
 }
 
+.nav-main-header ul {
+     min-width: 250px;
+     border-radius: 5px;
+ }
+
+.nav-main-header ul a{
+    font-size: 16px;
+}
+
 main{
     margin-top: 75px;
 }

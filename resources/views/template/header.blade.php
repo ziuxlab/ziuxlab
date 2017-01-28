@@ -23,7 +23,21 @@
                 </button>
             </li>
             <li>
-                <a class="h4 text-center text-white font-w600" href="{{ url('/') }}">Servicios</a>
+                <a class="nav-submenu h4 text-center text-white font-w600" href="javascript:void(0)">Servicios</a>
+                <ul>
+                    <li>
+                        <a class="h5 text-center text-white font-w600" href="{{ url('diseno-interfaces') }}">Diseño de interfaces</a>
+                    </li>
+                    <li>
+                        <a class="h5 text-center text-white font-w600" href="{{ url('desarrollo-web') }}">Desarrollo de aplicaciones web</a>
+                    </li>
+                    <li>
+                        <a class="h5 text-center text-white font-w600" href="{{ url('optimizacion-web') }}">Optimización de paginas web</a>
+                    </li>
+                    <li>
+                        <a class="h5 text-center text-white font-w600" href="{{ url('pruebas-usabilidad') }}">Pruebas de uabilidad</a>
+                    </li>
+                </ul>
             </li>
             <li>
                 <a class="h4 text-center text-white font-w600" href="{{ url('portafolio') }}">Casos de exito</a>
