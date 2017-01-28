@@ -43,10 +43,10 @@
                 <a class="h4 text-center text-white font-w600" href="{{ url('portafolio') }}">Casos de exito</a>
             </li>
             <li>
-                <a class="h4 text-center text-white font-w600" href="{{ url('/') }}">Empresa</a>
+                <a class="h4 text-center text-white font-w600" href="{{ url('empresa') }}">Empresa</a>
             </li>
             <li>
-                <a class="h4 text-center text-white font-w600" href="{{ url('/') }}">Usabilidad</a>
+                <a class="h4 text-center text-white font-w600" href="{{ url('pruebas-usabilidad') }}">Usabilidad</a>
             </li>
             <li>
                 <a class="hidden-md-down btn btn-lg btn-danger h4 text-center text-white font-w600" href="#formulario">Contáctenos</a>

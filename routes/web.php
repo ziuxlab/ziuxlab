@@ -11,7 +11,16 @@
 |
 */
     
-    Route::resource('/', 'InicioController');
+    
+
+
+Route::get('diseno-interfaces','InicioController@diseno');
+Route::get('desarrollo-web','InicioController@desarrollo');
+Route::get('optimizacion-web','InicioController@optimizacion');
+Route::get('pruebas-usabilidad','InicioController@pruebas');
+Route::get('empresa','InicioController@empresa');
+
+Route::resource('/', 'InicioController');
     Route::resource('portafolio', 'PortafolioController');
     //Route::get('servicios', 'InicioController@servicios');
     

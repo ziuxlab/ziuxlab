@@ -96,7 +96,7 @@
                                         expectativas de negocio,
                                         diseños inductivos, de fácil navegación y enfocados en el modelo de interacción.
                                     </h4>
-                                    <button class="btn btn-primary">Ver más</button>
+                                    <a class="btn btn-primary" href="{{url('diseno-interfaces')}}">Ver más</a>
                                     
                                 </div>
                             </div>
@@ -123,7 +123,7 @@
                                         APIs. Optimizadas, escalables y únicas para cada uno de
                                         nuestros clientes, centradas en mejorar la experiencia de usuario.
                                     </h4>
-                                    <button class="btn btn-primary">Ver más</button>
+                                    <a class="btn btn-primary" href="{{url('desarrollo-web')}}">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +148,7 @@
                                         pruebas de observación, heurísticas y entrevistas con usuarios reales,
                                         promoviendo la usabilidad de las interfaces y prototipos.
                                     </h4>
-                                    <button class="btn btn-primary">Ver más</button>
+                                    <a class="btn btn-primary" href="{{url('pruebas-usabilidad')}}">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +174,7 @@
                                         dispositivos moviles,
                                         service-workers, y SEO.
                                     </h4>
-                                    <button class="btn btn-primary">Ver más</button>
+                                    <a class="btn btn-primary" href="{{url('optimizacion-web')}}">Ver más</a>
                                 </div>
                             </div>
                         </div>

@@ -32,6 +32,23 @@ class InicioController extends Controller
         return view('app.inicio');
     }
     
+    public function diseno(){
+        return view('errors.construccion');
+    }
+    public function desarrollo(){
+        return view('errors.construccion');
+    }
+    public function optimizacion(){
+        return view('errors.construccion');
+    }
+    public function pruebas(){
+        return view('errors.construccion');
+    }
+    
+    public function empresa(){
+        return view('errors.construccion');
+    }
+    
     public function store(Request $request){
         
     }
