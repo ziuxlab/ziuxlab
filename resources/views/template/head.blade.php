@@ -21,4 +21,5 @@
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
 <!--<link rel="stylesheet" href="{{ url('assets/css/app.min.css') }}"> -->
+<link rel="stylesheet" type="text/css" media="print" href="{{ url('assets/css/app.min.css') }}">
 

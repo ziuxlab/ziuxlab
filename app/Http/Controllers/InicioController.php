@@ -33,7 +33,17 @@ class InicioController extends Controller
     }
     
     public function diseno(){
+        
+        SEO::setTitle('Diseño de interfaces UI/UX para aplicaciones web');
+        SEO::setDescription('Ziuxlab es la empresa  de desarrollo de software y aplicaciones web, diseño de interfaces y optimizacion web, centrados en el usuario y en la usabilidad de sus interfaces');
+        SEO::addImages(['url' => 'http://image.url.com/cover.jpg']);
+        SEO::opengraph()->addProperty('type', 'articles');
+        SEO::opengraph()->setUrl('http://ziuxlab.com/diseno-interfaces');
+        SEO::twitter()->setSite('@ziuxlab');
+        SEOMeta::addKeyword(['diseño de inrtefaces', 'experiencia de usauario', 'diseño y usabilidad','']);
+    
         return view('errors.construccion');
+        //return view('app.diseno');
     }
     public function desarrollo(){
         return view('errors.construccion');

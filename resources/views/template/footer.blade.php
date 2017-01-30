@@ -18,11 +18,11 @@
                 <span class="vertical-divider"> | </span>
                 <a class="font-w600 " href="{{ url('/') }}">Servicios</a>
                 <span class="vertical-divider"> | </span>
-                <a class="font-w600 " href="{{ url('/') }}">Casos de exito</a>
+                <a class="font-w600 " href="{{ url('portafolio') }}">Casos de exito</a>
                 <span class="vertical-divider"> | </span>
-                <a class="font-w600 " href="{{ url('/') }}">Empresa</a>
+                <a class="font-w600 " href="{{ url('empresa') }}">Empresa</a>
                 <span class="vertical-divider"> | </span>
-                <a class="font-w600 " href="{{ url('/') }}">Usabilidad</a>
+                <a class="font-w600 " href="{{ url('pruebas-usabiliad') }}">Usabilidad</a>
             </div>
         </div>
         <div class="col-sm text-xs-center">

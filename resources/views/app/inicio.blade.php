@@ -76,7 +76,7 @@
             </div>
             <div class="row flex-items-xs-center content-boxed">
                 <div class="col-sm-6 col-xl text-xs-center animated fadeInUp">
-                    <a class="block block-sombra" href="#">
+                    <a class="block block-sombra" href="{{url('diseno-interfaces')}}">
                         <div class="bg-image"
                              style="background-image: url({{ asset('assets/img/web-design.png') }});">
                             <div class="bg-black-op">
@@ -91,12 +91,12 @@
                             <div class="row text-center">
                                 <div class="col-xs-12">
                                     <h4 class="h5 push-5-t push">
-                                        Creamos diseños de interfaces centrados en el usuario, alineados con sus
+                                        Creamos <b>diseños de interfaces</b> centrados en el usuario, alineados con sus
                                         objetivos y
                                         expectativas de negocio,
-                                        diseños inductivos, de fácil navegación y enfocados en el modelo de interacción.
+                                        diseños inductivos, de <i>fácil navegación</i> y enfocados en el modelo de interacción.
                                     </h4>
-                                    <a class="btn btn-primary" href="{{url('diseno-interfaces')}}">Ver más</a>
+                                    <div class="btn btn-primary">Ver más</div>
                                     
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6 col-xl text-xs-center animated fadeInUp">
-                    <a class="block block-sombra" href="#">
+                    <a class="block block-sombra" href="{{url('desarrollo-web')}}">
                         <div class="bg-image "
                              style="background-image: url({{ asset('assets/img/desarrollo-web.jpg') }});">
                             <div class="bg-black-op">
@@ -119,18 +119,18 @@
                             <div class="row text-center">
                                 <div class="col-xs-12">
                                     <h4 class="h5 push-5-t push">
-                                        Desarrollamos aplicaciónes web, aplicaciónes moviles, software empresarial y
+                                        Desarrollamos <b>aplicaciónes web</b>, aplicaciónes moviles, software empresarial y
                                         APIs. Optimizadas, escalables y únicas para cada uno de
                                         nuestros clientes, centradas en mejorar la experiencia de usuario.
                                     </h4>
-                                    <a class="btn btn-primary" href="{{url('desarrollo-web')}}">Ver más</a>
+                                    <div class="btn btn-primary" >Ver más</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-6 col-xl text-xs-center animated fadeInUp">
-                    <a class="block block-sombra" href="#">
+                    <a class="block block-sombra" href="{{url('pruebas-usabilidad')}}">
                         <div class="bg-image"
                              style="background-image: url({{ asset('assets/img/pruebas-usabilidad.jpg') }});">
                             <div class="bg-black-op">
@@ -144,18 +144,18 @@
                             <div class="row text-center">
                                 <div class="col-xs-12">
                                     <h4 class="h5 push-5-t push">
-                                        Realizamos pruebas de usabilidad biometricas (eyetracker), mapas de calor,
-                                        pruebas de observación, heurísticas y entrevistas con usuarios reales,
-                                        promoviendo la usabilidad de las interfaces y prototipos.
+                                        Realizamos <b>pruebas de usabilidad</b> biometricas (eyetracker), mapas de calor,
+                                        pruebas de observación, entrevistas con usuarios reales,
+                                        promoviendo la <i>usabilidad de las interfaces</i> y prototipos.
                                     </h4>
-                                    <a class="btn btn-primary" href="{{url('pruebas-usabilidad')}}">Ver más</a>
+                                    <div class="btn btn-primary" >Ver más</div>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-6 col-xl text-xs-center animated fadeInUp">
-                    <a class="block block-sombra" href="#">
+                    <a class="block block-sombra" href="{{url('optimizacion-web')}}">
                         <div class="bg-image"
                              style="background-image: url({{ asset('assets/img/optimizacion-web.jpg') }});">
                             <div class="bg-black-op">
@@ -169,12 +169,12 @@
                             <div class="row text-center">
                                 <div class="col-xs-12">
                                     <h4 class="h5 push-5-t push">
-                                        Optimizamos todo tipo de aplicaciónes web y su contenido, mejorando la velocidad
+                                        <b>Optimizamos todo tipo de aplicaciónes web</b> y su contenido, mejorando la velocidad
                                         de carga en navegadores, cache, integración de CDNs, optimización para
                                         dispositivos moviles,
                                         service-workers, y SEO.
                                     </h4>
-                                    <a class="btn btn-primary" href="{{url('optimizacion-web')}}">Ver más</a>
+                                    <div class="btn btn-primary" >Ver más</div>
                                 </div>
                             </div>
                         </div>
@@ -211,7 +211,7 @@
                         <img class="img-responsive" src="{{ asset('assets/img/diseno.svg') }}" alt="diseño de aplicaciones moviles">
                         <div class="push-15-t">
                             <h3 class="h3 text-primary">Diseño</h3>
-                            <div class="push-10-t">Se plasmas las ideas en diseños centrados en los usuarios, diseñando
+                            <div class="push-10-t">Se plasmas las ideas en diseños <u>centrados en los usuarios</u>, diseñando
                                                    las interfaces, mockups y prototipos requeridos, evaluandolos con los
                                                    usuarios finales para su mejoramiento.
                             </div>
