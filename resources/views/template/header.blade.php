@@ -1,6 +1,6 @@
 <header id="header-navbar" class="content-mini content-mini-full">
     <div class="content-boxed row">
-        <ul class="nav-header col-xs-6  col-sm-3 col-xl-5">
+        <ul class="nav-header col-xs-6 col-sm-3 col-xl-4">
             <li class="header-content">
                 <a href="{{url('/')}}">
                     <img class="" src="{{ url('assets/img/logo.svg') }}" alt="desarrollo centrado en el usuario" height="50">
