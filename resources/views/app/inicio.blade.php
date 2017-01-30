@@ -11,7 +11,7 @@
 @stop
 
 @section('contenido')
-    <main id="main-container ">
+    <main id="main-container">
         <div class="bg-lineal-gradient-blue div-full">
             <section class="overflow-hidden content-boxed">
                 <!-- Section Content -->
@@ -189,7 +189,7 @@
                 </a>
             </div>-->
         </div>
-        <div id="section-2" class="row flex-items-xs-middle content content-full bg-primary">
+        <div id="section-3" class="row flex-items-xs-middle content content-full bg-primary">
             <div class="col-sm-12 text-xs-center">
                 <p class="h1 text-uppercase text-white font-w700 push-15-t push">Como trabajamos</p>
             </div>
@@ -244,7 +244,7 @@
         
         
         </div>
-        <div id="section-3" class="row flex-items-xs-middle content content-full bg-primary-darker">
+        <div id="section-4" class="row flex-items-xs-middle content content-full bg-primary-darker">
             <div class="col-sm-12 text-xs-center">
                 <p class="h1 text-uppercase text-white font-w700 push-30-t push text-uppercase">Algunos de nuestros
                                                                                                 trabajos</p>
