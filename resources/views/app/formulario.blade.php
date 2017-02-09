@@ -1,9 +1,11 @@
 <div id="section-4" class="row flex-items-xs-middle content content-full bg-primary push-100-t push-100">
     <div class="row flex-items-xs-middle content-boxed">
-        <div class="col-sm-4 col-lg-6 text-white text-xs-center text-sm-left">
+        <div class="col-sm-4 col-lg-6 text-white text-xs-center text-sm-left content content-full">
             <div class="h1">¿Listo para innovar?</div>
             <p class="h4 push-15-t">Cuéntenos acerca de sus nuevos proyectos, nosotros nos encargaremos de ayudarle,
                                     diligencie el siguiente formulario para que podamos empezar!</p>
+            <p class="h4">Teléfono:  311-664-8767</p>
+            <span class="h4">Correo: </span><a class="h4" href="mailto:comercial@ziuxlab.com"><span>comercial</span><span>@ziuxlab.com</span></a>
         </div>
         <div class="col-lg-6 col-sm-8">
             <div id="formulario" class="block block-sombra contact-form block-rounded">
@@ -33,7 +35,7 @@
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-6">
-                            {!! Form::label('proyecto', 'Tipo de proyecto:') !!}
+                            {{ Form::label('proyecto', 'Tipo de proyecto:') }}
                             {{ Form::select('tipo_proyecto', [
                             'diseño' => 'Diseño de interfaces UI/UX',
                             'aplicaciones' => 'Aplicaciones moviles',

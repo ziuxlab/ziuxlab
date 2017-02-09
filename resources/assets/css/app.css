@@ -13,6 +13,10 @@
     font-size: 16px;
 }
 
+.header-navbar-fixed #main-container {
+    padding-top: 0px;
+}
+
 main{
     margin-top: 75px;
 }

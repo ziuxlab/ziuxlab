@@ -22,12 +22,12 @@ class InicioController extends Controller
         //SitemapGenerator::create('https://ziuxlab.com')->writeToFile('sitemap.xml');
         
         SEO::setTitle('Empresa de diseño y desarrollo de aplicaciones web en Colombia');
-        SEO::setDescription('Ziuxlab es la empresa  de desarrollo de software y aplicaciones web, diseño de interfaces y optimizacion web, centrados en el usuario y en la usabilidad de sus interfaces');
+        SEO::setDescription('Ziuxlab es la empresa  de desarrollo aplicaciones web, diseño de interfaces, optimizacion web y pruebas de usabilidad de interfaces centrados en el usuario.');
         SEO::addImages(['url' => 'http://image.url.com/cover.jpg']);
         SEO::opengraph()->addProperty('type', 'articles');
         SEO::opengraph()->setUrl('http://ziuxlab.com');
         SEO::twitter()->setSite('@ziuxlab');
-        SEOMeta::addKeyword(['Usabilidad', 'Optimizacion web', 'SEO','desarrollo de web apps']);
+        SEOMeta::addKeyword(['Pruebas de Usabilidad', 'Optimización web', 'SEO','desarrollo de aplicaciones web','paginas web']);
        
         return view('app.inicio');
     }
@@ -40,10 +40,10 @@ class InicioController extends Controller
         SEO::opengraph()->addProperty('type', 'articles');
         SEO::opengraph()->setUrl('http://ziuxlab.com/diseno-interfaces');
         SEO::twitter()->setSite('@ziuxlab');
-        SEOMeta::addKeyword(['diseño de inrtefaces', 'experiencia de usauario', 'diseño y usabilidad','']);
+        SEOMeta::addKeyword(['diseño de inrtefaces', 'experiencia de usuaario', 'diseño y usabilidad','']);
     
-        return view('errors.construccion');
-        //return view('app.diseno');
+        //return view('errors.construccion');
+        return view('app.diseno');
     }
     public function desarrollo(){
         return view('errors.construccion');

@@ -31,7 +31,7 @@ elixir(mix => {
 gulp.task('critical', function () {
     critical.generate({
         base: 'public/',
-        src: 'construccion.html',
+        src: 'diseño.html',
         css: [
             'public/assets/css/app.min.css',
         ],
@@ -45,7 +45,7 @@ gulp.task('critical', function () {
             width: 1280,
             height: 960
         }],
-        dest: 'public/assets/css/critical.css',
+        dest: 'assets/css/critical.css',
         minify: true,
         extract: true,
         ignore: ['font-face'],
