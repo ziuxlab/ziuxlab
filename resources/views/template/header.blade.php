@@ -1,6 +1,6 @@
 <header id="header-navbar" class="content-mini content-mini-full">
     <div class="content-boxed row">
-        <ul class="nav-header col-xs-6 col-sm-2  col-xl-4">
+        <ul class="nav-header col-xs-6 col-sm-3  col-xl-4">
             <li class="header-content">
                 <a href="{{url('/')}}">
                     <img class="" src="{{ url('assets/img/logo.svg') }}" alt="desarrollo centrado en el usuario" height="50">
@@ -23,36 +23,36 @@
                     </button>
                 </li>
                 <li>
-                    <a class="nav-submenu h4 text-center text-white font-w600" href="javascript:void(0)">Servicios</a>
+                    <a class="nav-submenu h5  text-white font-w600" href="javascript:void(0)">Servicios</a>
                     <ul>
                         <li>
-                            <a class="h5 text-center text-white font-w600" href="{{ url('diseno-interfaces') }}">Diseño de interfaces</a>
+                            <a class="h6  text-white font-w400" href="{{ url('diseno-interfaces-web') }}">Diseño de interfaces</a>
                         </li>
                         <li>
-                            <a class="h5 text-center text-white font-w600" href="{{ url('desarrollo-web') }}">Desarrollo de aplicaciones web</a>
+                            <a class="h6  text-white font-w400" href="{{ url('desarrollo-aplicaciones-web') }}">Desarrollo de aplicaciones web</a>
                         </li>
                         <li>
-                            <a class="h5 text-center text-white font-w600" href="{{ url('optimizacion-web') }}">Optimización de paginas web</a>
+                            <a class="h6  text-white font-w400" href="{{ url('optimizacion-web') }}">Optimización de paginas web</a>
                         </li>
                         <li>
-                            <a class="h5 text-center text-white font-w600" href="{{ url('pruebas-usabilidad') }}">Pruebas de uabilidad</a>
+                            <a class="h6  text-white font-w400" href="{{ url('pruebas-usabilidad-interfaces') }}">Pruebas de uabilidad</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a class="h4 text-center text-white font-w600" href="{{ url('portafolio') }}">Casos de exito</a>
+                    <a class="h5  text-white font-w600" href="{{ url('portafolio') }}">Casos de exito</a>
                 </li>
                 <li>
-                    <a class="h4 text-center text-white font-w600" href="{{ url('empresa') }}">Empresa</a>
+                    <a class="h5  text-white font-w600" href="{{ url('empresa') }}">Empresa</a>
                 </li>
                 <li>
-                    <a class="h4 text-center text-white font-w600" href="{{ url('pruebas-usabilidad') }}">Usabilidad</a>
+                    <a class="h5  text-white font-w600" href="{{ url('pruebas-usabilidad') }}">Usabilidad</a>
                 </li>
                 <li>
-                    <a class="hidden-md-down btn btn-lg btn-danger h4 text-center text-white font-w600" href="#formulario">Contáctenos</a>
+                    <a class="hidden-md-down btn btn-lg btn-danger h5  text-white font-w600" href="#formulario">Contáctenos</a>
                 </li>
                 <li>
-                    <a class="hidden-lg-up  h4 text-center text-white font-w600" href="#formulario">Contáctenos</a>
+                    <a class="hidden-lg-up  h5  text-white font-w600" href="#formulario">Contáctenos</a>
                 </li>
           
         </ul>

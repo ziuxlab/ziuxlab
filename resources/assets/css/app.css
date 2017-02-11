@@ -5,7 +5,7 @@
 }
 
 .nav-main-header ul {
-     min-width: 250px;
+     min-width: 270px;
      border-radius: 5px;
  }
 
@@ -26,12 +26,20 @@ main{
     background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
+.img-r-50{
+    right: -50%;
+}
+
 .content-boxed{
     display: flex;
 }
 .bg-radial-gradient-blue {
   background-image: -webkit-radial-gradient(circle closest-corner at 50% 70%, #00a1f1, #0275d8 99%);
   background-image: radial-gradient(circle closest-corner at 50% 70%, #00a1f1, #0275d8 99%);
+}
+
+.bg-primary-darkest{
+    background-color: #16203b;
 }
 
 .bg-lineal-gradient-blue {

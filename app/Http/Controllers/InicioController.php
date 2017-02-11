@@ -46,7 +46,14 @@ class InicioController extends Controller
         return view('app.diseno');
     }
     public function desarrollo(){
-        return view('errors.construccion');
+        SEO::setTitle('Desarrollo de aplicaciones web y dispositivos moviles');
+        SEO::setDescription('Desarrollo de software y aplicaciones web, magento, laravel, wordpress y aplicaciones para dispositivos moviles.');
+        SEO::addImages(['url' => 'http://image.url.com/cover.jpg']);
+        SEO::opengraph()->addProperty('type', 'articles');
+        SEO::opengraph()->setUrl('http://ziuxlab.com/desarrollo');
+        SEO::twitter()->setSite('@ziuxlab');
+        SEOMeta::addKeyword(['diseño de inrtefaces', 'experiencia de usuaario', 'diseño y usabilidad','']);
+        return view('app.desarrollo');
     }
     public function optimizacion(){
         return view('errors.construccion');
