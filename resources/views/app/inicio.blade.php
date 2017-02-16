@@ -130,7 +130,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6 col-xl text-xs-center animated fadeInUp">
-                    <a class="block block-sombra" href="{{url('pruebas-usabilidad')}}">
+                    <a class="block block-sombra" href="{{url('pruebas-usabilidad-interfaces')}}">
                         <div class="bg-image"
                              style="background-image: url({{ asset('assets/img/pruebas-usabilidad.jpg') }});">
                             <div class="bg-black-op">

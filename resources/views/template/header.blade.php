@@ -46,7 +46,7 @@
                     <a class="h5  text-white font-w600" href="{{ url('empresa') }}">Empresa</a>
                 </li>
                 <li>
-                    <a class="h5  text-white font-w600" href="{{ url('pruebas-usabilidad') }}">Usabilidad</a>
+                    <a class="h5  text-white font-w600" href="{{ url('pruebas-usabilidad-interfaces') }}">Usabilidad</a>
                 </li>
                 <li>
                     <a class="hidden-md-down btn btn-lg btn-danger h5  text-white font-w600" href="#formulario">Contáctenos</a>
