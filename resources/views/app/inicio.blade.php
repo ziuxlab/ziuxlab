@@ -76,7 +76,7 @@
             </div>
             <div class="row flex-items-xs-center content-boxed">
                 <div class="col-sm-6 col-xl text-xs-center animated fadeInUp">
-                    <a class="block block-sombra" href="{{url('diseno-interfaces')}}">
+                    <a class="block block-sombra" href="{{url('diseno-interfaces-web')}}">
                         <div class="bg-image"
                              style="background-image: url({{ asset('assets/img/web-design.png') }});">
                             <div class="bg-black-op">
@@ -104,7 +104,7 @@
                     </a>
                 </div>
                 <div class="col-sm-6 col-xl text-xs-center animated fadeInUp">
-                    <a class="block block-sombra" href="{{url('desarrollo-web')}}">
+                    <a class="block block-sombra" href="{{url('desarrollo-aplicaciones-web')}}">
                         <div class="bg-image "
                              style="background-image: url({{ asset('assets/img/desarrollo-web.jpg') }});">
                             <div class="bg-black-op">

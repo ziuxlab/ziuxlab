@@ -32,10 +32,10 @@
                             <a class="h6  text-white font-w400" href="{{ url('desarrollo-aplicaciones-web') }}">Desarrollo de aplicaciones web</a>
                         </li>
                         <li>
-                            <a class="h6  text-white font-w400" href="{{ url('optimizacion-web') }}">Optimización de paginas web</a>
+                            <a class="h6  text-white font-w400" href="{{ url('optimizacion-web') }}">Optimización de páginas web</a>
                         </li>
                         <li>
-                            <a class="h6  text-white font-w400" href="{{ url('pruebas-usabilidad-interfaces') }}">Pruebas de uabilidad</a>
+                            <a class="h6  text-white font-w400" href="{{ url('pruebas-usabilidad-interfaces') }}">Pruebas de Usabilidad</a>
                         </li>
                     </ul>
                 </li>
