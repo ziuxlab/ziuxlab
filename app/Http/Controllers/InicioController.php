@@ -40,7 +40,7 @@ class InicioController extends Controller
         SEO::opengraph()->addProperty('type', 'articles');
         SEO::opengraph()->setUrl('http://ziuxlab.com/diseno-interfaces');
         SEO::twitter()->setSite('@ziuxlab');
-        SEOMeta::addKeyword(['diseño de inrtefaces', 'experiencia de usuaario', 'diseño y usabilidad','']);
+        SEOMeta::addKeyword(['diseño de inrtefaces', 'experiencia de usuario', 'diseño y usabilidad','']);
     
         //return view('errors.construccion');
         return view('app.diseno');
@@ -52,14 +52,21 @@ class InicioController extends Controller
         SEO::opengraph()->addProperty('type', 'articles');
         SEO::opengraph()->setUrl('http://ziuxlab.com/desarrollo');
         SEO::twitter()->setSite('@ziuxlab');
-        SEOMeta::addKeyword(['diseño de inrtefaces', 'experiencia de usuaario', 'diseño y usabilidad','']);
+        SEOMeta::addKeyword(['diseño de inrtefaces', 'experiencia de usuario', 'diseño y usabilidad','']);
         return view('app.desarrollo');
     }
     public function optimizacion(){
         return view('errors.construccion');
     }
     public function pruebas(){
-        return view('errors.construccion');
+        SEO::setTitle('Pruebas de Usabilidad UI/UX');
+        SEO::setDescription('Realizamos pruebas de usabilidad a interfaces web, moviles, formularios, cualquier interfaz que interactue con un usuario.');
+        SEO::addImages(['url' => 'http://image.url.com/cover.jpg']);
+        SEO::opengraph()->addProperty('type', 'articles');
+        SEO::opengraph()->setUrl('http://ziuxlab.com/pruebas-usabilidad-interfaces');
+        SEO::twitter()->setSite('@ziuxlab');
+        SEOMeta::addKeyword(['pruebas de usabilidad', 'experiencia de usuario UI/UX', 'diseño y usabilidad','']);
+        return view('app.usabilidad');
     }
     
     public function empresa(){

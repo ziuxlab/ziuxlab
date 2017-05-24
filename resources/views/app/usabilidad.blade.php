@@ -16,12 +16,12 @@
                 <!-- Section Content -->
                 <div class="row flex-items-xs-middle flex-items-xs-center content-boxed ">
                     <div class=" col-sm-10 text-white text-xs-center push-50 ">
-                        <h1 class="text-capitalize">Desarrollo de aplicaciones web</h1>
-                        <h2 class="push">Proyectos en Magento, Laravel, Wordpress o soluciones a medida centradas en el
-                                         usuario</h2>
+                        <h1 class="text-capitalize">Pruebas de usabilidad en interfaces</h1>
+                        <h2 class="push">Realizamos pruebas heuristicas, conceptuales y biometricas a todo tipo de interfaces para promover la usabilidad</h2>
                         <img class="animated bounceInRight  push-20-t"
-                             src="{{ asset('assets/img/code.svg') }}" height="100"
+                             src="{{ asset('assets/img/pruebas-banner.svg') }}" height="100"
                              alt="ziuxlab desarrollo web con usabilidad">
+
                     </div>
                 </div>
                 <!-- END Section Content -->
@@ -31,36 +31,22 @@
             <section class="content-boxed">
                 <div class="row flex-items-xs-middle content content-full flex-items-xs-center ">
                     <div class="col-sm-6 push-30-t font-s16 content content-full">
-                        <h3 class="h2 text-xs-center push">Desarrollo de aplicaciones web</h3>
-                        <p>El desarrollo de sitios web es una necesidad de las empresas para tener presencia en la
-                           internet, siendo éste el nuevo medio de comunicación entre negocios así como el acceso
-                           principal a un mercado internacional permitiendo expandir sus alcances como empresa.
+                        <h3 class="h2 text-xs-center push">¿Por qué hacemos las pruebas de usabilidad?</h3>
+                        <p>Las pruebas de usabilidad (o pruebas de usuario) implica la observación y el análisis de sus clientes típicos usan e interactúan con los puntos de contacto digitales, incluyendo sitios web, teléfonos inteligentes, tabletas y aplicaciones.
                         </p>
                         <p>
-                            Un sitio web permite que los usuarios encontrar información de manera fácil y rápida, en
-                            este sentido los usurios no dan una segunda oportunidad, es por esto que en ziuxlab nos
-                            preocupamos por su negocio, trabajamos en equipo parar desarrollar sitios y páginas web que
-                            se adapten de la mejor manera de acuerdo a sus necesidades.
+                            Las pruebas de usabilidad proporciona:
                         </P>
-                        <p>
-                            Interpretamos sus ideas y necesidades para el correcto, desarrollo, diseño y programación
-                            del proyecto web, para nosotros esto es fundamental para alcanzar un desarrollo de alta
-                            calidad
-                            centrado en el usuario. Para ello desarrollamos una arquitectura sólida, clara y
-                            accesible.
-                        </p>
-                        <p>Buscamos que los sitios sean atractivos, usables, que comuniquen efectivamente los mensajes
-                           que usted desea. Nos enfocamos en la navegación para que sea simple, con rápido acceso a la
-                           información. Normalmente si un usuario no entiende la página dejara de navegarla y
-                           seguramente jamás volverá, es por esto que nos fijamos en una interacción satisfactoria para
-                           sus usuarios que sea simple.
-                        
-                        </p>
-                        <p>Consideramos que la correcta y continua comunicación entre el cliente y nuestro equipo es una
-                           de las claves del éxito para que los proyectos web sean sobresalientes.</p>
+                        <ul>
+                            <li>Opciones y recomendaciones sólidas, detalladas y priorizadas.</li>
+                            <li>Un plan de acción para la implementación de cambios en torno a sus necesidades específicas.</li>
+                            <li>visualización en directo de las pruebas de usuario que unifica los equipos internos.</li>
+                            <li>Videos de las sesiones de prueba de usuario para que pueda ver los mejores momentos en la oficina.</li>
+
+                        </ul>
                     </div>
-                    <div class="col-sm-6 remove-padding">
-                        <img class="img-r-50" src="{{url('assets/img/xbuild.png')}}" alt="desarrollo web">
+                    <div class="col-sm-6 remove-padding bg-image" style="background-image: url('https://konceptapp.com/assets/images/blog/what-is-all-the-fuss-about-usability.png');">
+                        <img class="" src="" alt="desarrollo web">
                     </div>
                 </div>
             </section>

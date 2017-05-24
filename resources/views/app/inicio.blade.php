@@ -196,7 +196,9 @@
             <div class="row flex-items-xs-center content-boxed">
                 <div class="col-xs-10 row flex-items-xs-center text-xs-center content  animated fadeInUp  block block-rounded block-sombra">
                     <div class="col-lg-3 col-sm-6 push">
-                        <img class="img-responsive " src="{{ asset('assets/img/planeacion.svg') }}" alt="planeacion de diseño web">
+                        <div class="content content-narrow">
+                            <img class="img-responsive " src="{{ asset('assets/img/planeacion.svg') }}" alt="planeacion de diseño web">
+                        </div>
                         <div class="push-15-t">
                             <h3 class="h3 text-primary">Planeación</h3>
                             <div class="push-10-t">Cada proyecto comienza con una investigación del mercado, la
@@ -208,7 +210,9 @@
                     
                     </div>
                     <div class=" col-lg-3 col-sm-6 push">
+                        <div class="content content-narrow">
                         <img class="img-responsive" src="{{ asset('assets/img/diseno.svg') }}" alt="diseño de aplicaciones moviles">
+                        </div>
                         <div class="push-15-t">
                             <h3 class="h3 text-primary">Diseño</h3>
                             <div class="push-10-t">Se plasmas las ideas en diseños <u>centrados en los usuarios</u>, diseñando
@@ -218,7 +222,9 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 push">
+                        <div class="content content-narrow">
                         <img class="img-responsive" src="{{ asset('assets/img/desarrollo.svg') }}" alt="desarrollo de aplicaciones web">
+                        </div>
                         <div class="push-15-t">
                             <h3 class="h3 text-primary">Desarrollo</h3>
                             <div class="push-10-t">Se desarrollan los diseños creados, evaluados y aprobados por
@@ -229,7 +235,9 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 push">
+                        <div class="content content-narrow">
                         <img class="img-responsive" src="{{ asset('assets/img/pruebas.svg') }}" alt="pruebas de usabilidad en interfaces">
+                        </div>
                         <div class="push-15-t">
                             <h3 class="h3 text-primary">Testeo</h3>
                             <div class="push-10-t">Durante todo el proyecto se realizan las pruebas pertinentes en cada
