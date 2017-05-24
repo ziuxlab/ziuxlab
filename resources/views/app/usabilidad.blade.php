@@ -870,7 +870,8 @@
                 <div class="row bg-radial-gradient-blue flex-items-xs-middle  flex-items-xs-center ">
                     <div class="col-sm-6  remove-padding">
                         <div class="content content-full content-narrow">
-                            <img class="img-responsive animated rotateInUpLeft" src="{{url('assets/img/hate-you.png')}}" alt="que consiste la usabilidad">
+                            <img class="img-responsive animated rotateInUpLeft" src="{{url('assets/img/hate-you.png')}}"
+                                 alt="que consiste la usabilidad">
                         </div>
                     </div>
                     <div class="col-sm-6 push-10-t bg-white font-s16 content content-full content-narrow  ">
@@ -909,6 +910,61 @@
                 
                 </div>
             </section>
+        </div>
+        <div id="section-3" class="row flex-items-xs-middle content content-full bg-primary">
+            <div class="col-sm-12 text-xs-center"><p class="h1 text-uppercase text-white font-w700 push-15-t push">
+                    Pruebas de Usabilidad UX</p>
+            </div>
+            <div class="row flex-items-xs-center content-boxed">
+                <div class="col-xs-10 row flex-items-xs-center text-xs-center content animated fadeInUp block block-rounded block-sombra">
+                    <div class="col-lg-3 col-sm-6 push">
+                        <div class="content content-narrow"><img class="img-responsive "
+                                                                 src="http://localhost:8002/assets/img/planeacion.svg"
+                                                                 alt="planeacion de diseño web"></div>
+                        <div class="push-15-t"><h3 class="h3 text-primary">Pruebas Heuristicas</h3>
+                            <div class="push-10-t">opiniones heurísticas de usabilidad (revisiones) se llevan a cabo por
+                                                   un equipo de analistas de usabilidad certificados que también tienen
+                                                   un conocimiento en profundidad en el diseño de las interfaces propios
+                                                   usables y accesibles.
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-sm-6 push">
+                        <div class="content content-narrow">
+                            <img class="img-responsive"
+                                                                 src="http://localhost:8002/assets/img/diseno.svg"
+                                                                 alt="diseño de aplicaciones moviles"></div>
+                        <div class="push-15-t"><h3 class="h3 text-primary">Rediseño de InterfacesP</h3>
+                            <div class="push-10-t">.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 push">
+                        <div class="content content-narrow">
+                            <img class="img-responsive"
+                                 src="http://localhost:8002/assets/img/desarrollo.svg"
+                                 alt="desarrollo de aplicaciones web"></div>
+                        <div class="push-15-t"><h3 class="h3 text-primary">ruebas de Campo</h3>
+                            <div class="push-10-t">.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 push">
+                        <div class="content content-narrow"><img class="img-responsive"
+                                                                 src="http://localhost:8002/assets/img/pruebas.svg"
+                                                                 alt="pruebas de usabilidad en interfaces"></div>
+                        <div class="push-15-t"><h3 class="h3 text-primary">Pruebas Biometricas</h3>
+                            <div class="push-10-t">Nuestro equipo está formado por expertos en investigación de usuarios
+                                                   cualificados y con herramientas a nuestra disposición, como los
+                                                   dispositivos de seguimiento ocular y un laboratorio de usabilidad
+                                                   dedicada a realizar estudios de usabilidad, ya sea aquí en Armenia o
+                                                   en toda Colombia.
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     @include('app.opiniones')
