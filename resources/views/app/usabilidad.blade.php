@@ -808,7 +808,7 @@
                 font-size: 12px !important
             }
         }</style>
-
+    <link rel="stylesheet" type="text/css"  href="{{ url('assets/css/ux.css') }}">
 @stop
 
 @section('contenido')
@@ -838,8 +838,8 @@
                             <h3 class="h2 text-xs-center push">¿Por qué hacemos las pruebas de usabilidad?</h3>
                             <p>Las pruebas de usabilidad (o pruebas de usuario) implica la observación y el análisis de
                                sus clientes típicos usan e interactúan con los puntos de contacto digitales, incluyendo
-                               sitios web, teléfonos inteligentes, tabletas y aplicaciones.
-                            </p>
+                               sitios web, teléfonos inteligentes, tabletas y aplicaciones,
+                                además de que usuarios puedan entender y navegar de forma fácil y sencilla en su sitio web.
                             <p>
                                 Las pruebas de usabilidad proporciona:
                             </P>
@@ -851,8 +851,7 @@
                                 <li>visualización en directo de las pruebas de usuario que unifica los equipos
                                     internos.
                                 </li>
-                                <li>Videos de las sesiones de prueba de usuario para que pueda ver los mejores momentos
-                                    en la oficina.
+                                <li>Videos de las sesiones de prueba de usuario para que pueda ver como los usuarios interactuan con su interfaz.
                                 </li>
                             
                             </ul>
@@ -915,56 +914,127 @@
             <div class="col-sm-12 text-xs-center"><p class="h1 text-uppercase text-white font-w700 push-15-t push">
                     Pruebas de Usabilidad UX</p>
             </div>
-            <div class="row flex-items-xs-center content-boxed">
-                <div class="col-xs-10 row flex-items-xs-center text-xs-center content animated fadeInUp block block-rounded block-sombra">
-                    <div class="col-lg-3 col-sm-6 push">
-                        <div class="content content-narrow"><img class="img-responsive "
-                                                                 src="http://localhost:8002/assets/img/planeacion.svg"
-                                                                 alt="planeacion de diseño web"></div>
-                        <div class="push-15-t"><h3 class="h3 text-primary">Pruebas Heuristicas</h3>
-                            <div class="push-10-t">opiniones heurísticas de usabilidad (revisiones) se llevan a cabo por
-                                                   un equipo de analistas de usabilidad certificados que también tienen
-                                                   un conocimiento en profundidad en el diseño de las interfaces propios
-                                                   usables y accesibles.
+            <div class="row  content-boxed">
+                <div class="col-sm-6  animated fadeInUp">
+                    <div class="block block-rounded" style="height: 95%">
+                        <div class="border-top-radius bg-image"
+                             style="background-image: url({{ asset('assets/img/eye-tracking.jpg') }});">
+                            <div class="border-top-radius bg-black-op">
+                                <div class="block-content  block-content-full text-xs-center">
+                                    <h2 class="h3 font-w600 text-uppercase text-white push-50-t push-50">Pruebas de usabilidad
+                                        <br> con eye tracker
+                                        </h2>
+                                </div>
                             </div>
+                        </div>
+                        <div class="block-content block-content-narrow block-content-full">
+                                    <p class="font-s16 push-10-t">
+                                        <b>En la prueba de usabilidad con Eye traker</b> realizamos un seguimiento de los ojos durante la prueba, este genera valiosos datos adicionales.
+                                         Mientras que el participante en la prueba está trabajando en una tarea, por ejemplo, pedir un producto, nuestro equipo biométrico 	capta la mirada del usuario. De esta manera recogemos las declaraciones de los usuarios y los datos de la mirada objetiva.
+                                    </p>
+                                    <p class="font-s16">Tanto los resultados cuantitativos y cualitativos son analizados.
+                                        El análisis gráfico de los patrones de la mirada (por ejemplo Heatmaps o trayectorias de exploración) visualiza cómo los participantes perciben su producto. Dichos resultados son entregados en un informe con recomendaciones, además de videos donde se puede observar el proceso de los usuarios.
+                                    </p>
                         </div>
                     </div>
-                    <div class=" col-lg-3 col-sm-6 push">
-                        <div class="content content-narrow">
-                            <img class="img-responsive"
-                                                                 src="http://localhost:8002/assets/img/diseno.svg"
-                                                                 alt="diseño de aplicaciones moviles"></div>
-                        <div class="push-15-t"><h3 class="h3 text-primary">Rediseño de InterfacesP</h3>
-                            <div class="push-10-t">.
+                </div>
+                <div class="col-sm-6  animated fadeInUp">
+                    <div class="block block-rounded" style="height: 95%">
+                        <div class="border-top-radius bg-image"
+                             style="background-image: url({{ asset('assets/img/pruebas-usabilidad.jpg') }});">
+                            <div class="border-top-radius bg-black-op">
+                                <div class="block-content  block-content-full text-xs-center">
+                                    <h2 class="h3 font-w600 text-uppercase text-white push-50-t push-50">Observacion
+                                        <br> de Campo
+                                    </h2>
+                                </div>
                             </div>
+                        </div>
+                        <div class="block-content block-content-narrow block-content-full">
+                            <p class="font-s16 push-10-t">
+                                <b>En la observación de campo</b> realizamos un seguimiento de la interacción de los usuarios con 	su sitio web a través de grabación de videos.
+                            </p>
+                            <p class="font-s16">Mientras los usuarios interactúan con su 	proyecto, un analista experto se encarga de tomar todas aquellas anotaciones relevantes 	que pueden influir en la correcta interacción, además de las opiniones de los usuarios. 	Dichas 	observaciones son entregadas en un informe con las respectivas recomendaciones.   </p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 push">
-                        <div class="content content-narrow">
-                            <img class="img-responsive"
-                                 src="http://localhost:8002/assets/img/desarrollo.svg"
-                                 alt="desarrollo de aplicaciones web"></div>
-                        <div class="push-15-t"><h3 class="h3 text-primary">ruebas de Campo</h3>
-                            <div class="push-10-t">.
+                </div>
+                <div class="col-sm-6  animated fadeInUp">
+                    <div class="block block-rounded" style="height: 95%">
+                        <div class="border-top-radius bg-image"
+                             style="background-image: url({{ asset('assets/img/heuristic.jpg') }});">
+                            <div class="border-top-radius bg-black-op">
+                                <div class="block-content  block-content-full text-xs-center">
+                                    <h2 class="h3 font-w600 text-uppercase text-white push-50-t push-50">
+                                        Evaluacion Heuristica
+                                    </h2>
+                                </div>
                             </div>
+                        </div>
+                        <div class="block-content block-content-narrow block-content-full">
+                            <p class="font-s16 push-10-t">
+                                <b>En la evaluación heurística</b> por medio de una lista de chequeo verificamos si la funcionalidad 	que existe es necesaria, si es sistema es intuitivo, si el contenido para el público se entiende, 	si el sistema responde de forma adecuada a cada operación, entre otros. Dichos hallazgos 	se entregan en un informe categorizando y priorizando vulnerabilidades.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 push">
-                        <div class="content content-narrow"><img class="img-responsive"
-                                                                 src="http://localhost:8002/assets/img/pruebas.svg"
-                                                                 alt="pruebas de usabilidad en interfaces"></div>
-                        <div class="push-15-t"><h3 class="h3 text-primary">Pruebas Biometricas</h3>
-                            <div class="push-10-t">Nuestro equipo está formado por expertos en investigación de usuarios
-                                                   cualificados y con herramientas a nuestra disposición, como los
-                                                   dispositivos de seguimiento ocular y un laboratorio de usabilidad
-                                                   dedicada a realizar estudios de usabilidad, ya sea aquí en Armenia o
-                                                   en toda Colombia.
+                </div>
+                <div class="col-sm-6  animated fadeInUp">
+                    <div class="block block-rounded" style="height: 95%">
+                        <div class="border-top-radius bg-image"
+                             style="background-image: url({{ asset('assets/img/heatmap.png') }});">
+                            <div class="border-top-radius bg-black-op">
+                                <div class="block-content  block-content-full text-xs-center">
+                                    <h2 class="h3 font-w600 text-uppercase text-white push-50-t push-50">Mapas de calor
+                                    </h2>
+                                </div>
                             </div>
                         </div>
-                       
+                        <div class="block-content block-content-narrow block-content-full">
+                            <p class="font-s16 push-10-t">
+                                <b>En la prueba de Mapas de calor</b>  Un mapa de calor es una visualización que utilizamos para representar la intensidad de los 	datos, con este buscamos comprender cuales son los caminos que tus usuarios toman para 	realizar las tareas, para lograr optimizar las rutas y generar las guías necesarias para 	desarrollar las acciones  que tú quieres. Identificando como tus usuarios entienden las agrupaciones de productos/servicios y las categorías en tu sitio web.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="bg-primary text-white font-s16">
+            <section class="overflow-hidden content-boxed">
+                <div class="col-sm-6 col-xs-12 row flex-items-xs-middle content content-full flex-items-xs-center ">
+                    <div class="col-sm-12">
+                        <h3 class="push text-xs-center h2">¿Beneficios de realizar pruebas de usabilidad?</h3>
+                        <ul class="text-white-op">
+                            <li class="push-10">Identificar si los usuarios son capaces de resolver tareas básicas sin experimentar problemas.
+                            </li>
+                            <li class="push-10">Puede obtener información importante.</li>
+                            <li class="push-10">Identificar si el contenido es comprensible y está bien estructurado.</li>
+                            <li class="push-10">La interfaz guía bien al usuario a través de procesos específicos.</li>
+                            <li class="push-10">Hay algunas partes de la interfaz que hacen que los usuarios fallen (posible punto de terminación).</li>
+                            <li class="push-10">Es divertido usar la aplicación / producto (alegría de uso)..</li>
+                            <li class="push-10">Mejorar calidad del producto.</li>
+                            <li class="push-10">Usuarios satisfechos.</li>
+                            <li class="push-10">Opiniones de sus clientes sobre sus productos/servicios.</li>
+                            <li class="push-10">Determinar que necesidades se encuentran insatisfechas.</li>
+                            <li class="push-10">Identificar qué tan fácil de usar es un diseño.</li>
+                            <li class="push-10">Identificar qué tan claras son las instrucciones y la información en el sitio web.</li>
+                            <li class="push-10">Determinar si es amigable su sitio o dónde generar las frustraciones del usuario.</li>
+                            <li class="push-10">Cuál es el camino esperado por mis usuarios</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 bg-primary-darkest row flex-items-xs-middle flex-items-xs-center ">
+                    <div class="content">
+                        <svg class="heart-loader" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" version="1.1">
+                            <g class="heart-loader__group">
+                                <path class="heart-loader__square" stroke-width="1" fill="none" d="M0,30 0,90 60,90 60,30z"/>
+                                <path class="heart-loader__circle m--left" stroke-width="1" fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
+                                <path class="heart-loader__circle m--right" stroke-width="1" fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
+                                <path class="heart-loader__heartPath" stroke-width="2" d="M60,30 a30,30 0 0,1 0,60 L0,90 0,30 a30,30 0 0,1 60,0" />
+                            </g>
+                        </svg>
+
+                    </div>
+                   </div>
+            </section>
         </div>
     </main>
     @include('app.opiniones')
