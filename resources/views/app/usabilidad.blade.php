@@ -830,10 +830,10 @@
                 <!-- END Section Content -->
             </section>
         </div>
-        <div class="bg-white ">
+        <div class=" " style="background-color: #4293EC">
             <section class="content-boxed">
                 <div class="row  flex-items-xs-middle  flex-items-xs-center ">
-                    <div class="col-sm-6 push-10-t font-s16 content content-full content-narrow  ">
+                    <div class="col-sm-6 remove-margin bg-white push-10-t font-s16 content content-full content-narrow  ">
                         <div class="content-mini">
                             <h3 class="h2 text-xs-center push">¿Por qué hacemos las pruebas de usabilidad?</h3>
                             <p>Las pruebas de usabilidad (o pruebas de usuario) implica la observación y el análisis de
@@ -864,16 +864,16 @@
                 </div>
             </section>
         </div>
-        <div class="bg-white ">
+        <div class="bg-radial-gradient-blue ">
             <section class="content-boxed">
-                <div class="row bg-radial-gradient-blue flex-items-xs-middle  flex-items-xs-center ">
+                <div class="row flex-items-xs-middle  flex-items-xs-center">
                     <div class="col-sm-6  remove-padding">
                         <div class="content content-full content-narrow">
                             <img class="img-responsive animated rotateInUpLeft" src="{{url('assets/img/hate-you.png')}}"
                                  alt="que consiste la usabilidad">
                         </div>
                     </div>
-                    <div class="col-sm-6 push-10-t bg-white font-s16 content content-full content-narrow  ">
+                    <div class="col-sm-6 bg-white push-10-t bg-white font-s16 content content-full content-narrow  ">
                         <div class="content-mini animated bounceIn">
                             <h3 class="h2 text-xs-center push">¿En qué consiste pruebas de usabilidad?</h3>
                             <p>A través de un cierre, enfoque de colaboración que va a aprender mucho de nuestra
@@ -906,7 +906,6 @@
                         </div>
                     
                     </div>
-                
                 </div>
             </section>
         </div>
@@ -997,43 +996,45 @@
                 </div>
             </div>
         </div>
-        <div class="bg-primary text-white font-s16">
-            <section class="overflow-hidden content-boxed">
-                <div class="col-sm-6 col-xs-12 row flex-items-xs-middle content content-full flex-items-xs-center ">
-                    <div class="col-sm-12">
-                        <h3 class="push text-xs-center h2">¿Beneficios de realizar pruebas de usabilidad?</h3>
-                        <ul class="text-white-op">
-                            <li class="push-10">Identificar si los usuarios son capaces de resolver tareas básicas sin experimentar problemas.
-                            </li>
-                            <li class="push-10">Puede obtener información importante.</li>
-                            <li class="push-10">Identificar si el contenido es comprensible y está bien estructurado.</li>
-                            <li class="push-10">La interfaz guía bien al usuario a través de procesos específicos.</li>
-                            <li class="push-10">Hay algunas partes de la interfaz que hacen que los usuarios fallen (posible punto de terminación).</li>
-                            <li class="push-10">Es divertido usar la aplicación / producto (alegría de uso)..</li>
-                            <li class="push-10">Mejorar calidad del producto.</li>
-                            <li class="push-10">Usuarios satisfechos.</li>
-                            <li class="push-10">Opiniones de sus clientes sobre sus productos/servicios.</li>
-                            <li class="push-10">Determinar que necesidades se encuentran insatisfechas.</li>
-                            <li class="push-10">Identificar qué tan fácil de usar es un diseño.</li>
-                            <li class="push-10">Identificar qué tan claras son las instrucciones y la información en el sitio web.</li>
-                            <li class="push-10">Determinar si es amigable su sitio o dónde generar las frustraciones del usuario.</li>
-                            <li class="push-10">Cuál es el camino esperado por mis usuarios</li>
-                        </ul>
+        <div class="bg-primary-darkest text-white font-s16">
+            <section class="content-boxed">
+                <div class="row col-sm-12 flex-items-xs-middle  flex-items-xs-center ">
+                    <div class="col-sm-6 push-10-t bg-primary   ">
+                        <div class="content content-full">
+                            <h3 class="push text-xs-center h2">¿Beneficios de realizar pruebas de usabilidad?</h3>
+                            <ul class="text-white-op">
+                                <li class="push-10">Identificar si los usuarios son capaces de resolver tareas básicas sin experimentar problemas.
+                                </li>
+                                <li class="push-10">Puede obtener información importante.</li>
+                                <li class="push-10">Identificar si el contenido es comprensible y está bien estructurado.</li>
+                                <li class="push-10">La interfaz guía bien al usuario a través de procesos específicos.</li>
+                                <li class="push-10">Hay algunas partes de la interfaz que hacen que los usuarios fallen (posible punto de terminación).</li>
+                                <li class="push-10">Es divertido usar la aplicación / producto (alegría de uso)..</li>
+                                <li class="push-10">Mejorar calidad del producto.</li>
+                                <li class="push-10">Usuarios satisfechos.</li>
+                                <li class="push-10">Opiniones de sus clientes sobre sus productos/servicios.</li>
+                                <li class="push-10">Determinar que necesidades se encuentran insatisfechas.</li>
+                                <li class="push-10">Identificar qué tan fácil de usar es un diseño.</li>
+                                <li class="push-10">Identificar qué tan claras son las instrucciones y la información en el sitio web.</li>
+                                <li class="push-10">Determinar si es amigable su sitio o dónde generar las frustraciones del usuario.</li>
+                                <li class="push-10">Cuál es el camino esperado por mis usuarios</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 ">
+                        <div class="content">
+                            <svg class="heart-loader" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" version="1.1">
+                                <g class="heart-loader__group">
+                                    <path class="heart-loader__square" stroke-width="1" fill="none" d="M0,30 0,90 60,90 60,30z"/>
+                                    <path class="heart-loader__circle m--left" stroke-width="1" fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
+                                    <path class="heart-loader__circle m--right" stroke-width="1" fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
+                                    <path class="heart-loader__heartPath" stroke-width="2" d="M60,30 a30,30 0 0,1 0,60 L0,90 0,30 a30,30 0 0,1 60,0" />
+                                </g>
+                            </svg>
+
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-xs-12 bg-primary-darkest row flex-items-xs-middle flex-items-xs-center ">
-                    <div class="content">
-                        <svg class="heart-loader" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" version="1.1">
-                            <g class="heart-loader__group">
-                                <path class="heart-loader__square" stroke-width="1" fill="none" d="M0,30 0,90 60,90 60,30z"/>
-                                <path class="heart-loader__circle m--left" stroke-width="1" fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
-                                <path class="heart-loader__circle m--right" stroke-width="1" fill="none" d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
-                                <path class="heart-loader__heartPath" stroke-width="2" d="M60,30 a30,30 0 0,1 0,60 L0,90 0,30 a30,30 0 0,1 60,0" />
-                            </g>
-                        </svg>
-
-                    </div>
-                   </div>
             </section>
         </div>
     </main>
